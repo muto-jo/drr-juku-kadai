@@ -1,0 +1,87 @@
+<svg width="225px" height="393px"
+ viewBox="0.00 0.00 224.84 392.82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 388.82)">
+<title>%3</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-388.82 220.84,-388.82 220.84,4 -4,4"/>
+<text text-anchor="middle" x="108.42" y="-15.62" font-family="Times,serif" font-size="14.00">ビジネスルール関連図 [2020.2.4]</text>
+<g id="clust1" class="cluster">
+<title>cluster_jig.tutorial.domain.model.order</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="24.42,-206.82 24.42,-287.82 94.42,-287.82 94.42,-206.82 24.42,-206.82"/>
+<text text-anchor="middle" x="59.42" y="-272.62" font-family="Times,serif" font-size="14.00">order</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_jig.tutorial.domain.model.shipment</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="45.42,-295.82 45.42,-376.82 131.42,-376.82 131.42,-295.82 45.42,-295.82"/>
+<text text-anchor="middle" x="88.42" y="-361.62" font-family="Times,serif" font-size="14.00">shipment</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_jig.tutorial.domain.model.product</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="46.42,-38.82 46.42,-198.82 192.42,-198.82 192.42,-38.82 46.42,-38.82"/>
+<text text-anchor="middle" x="119.42" y="-183.62" font-family="Times,serif" font-size="14.00">product</text>
+</g>
+<!-- jig.tutorial.domain.model.order.Order -->
+<g id="node1" class="node">
+<title>jig.tutorial.domain.model.order.Order</title>
+<polygon fill="#eedd82" stroke="black" points="86.42,-257.82 32.42,-257.82 32.42,-214.82 86.42,-214.82 86.42,-257.82"/>
+<text text-anchor="middle" x="59.42" y="-242.62" font-family="Times,serif" font-size="14.00">注文</text>
+<text text-anchor="middle" x="59.42" y="-221.62" font-family="Times,serif" font-size="14.00">Order</text>
+</g>
+<!-- jig.tutorial.domain.model.product.Product -->
+<g id="node5" class="node">
+<title>jig.tutorial.domain.model.product.Product</title>
+<polygon fill="#eedd82" stroke="black" points="128.98,-168.82 69.87,-168.82 69.87,-125.82 128.98,-125.82 128.98,-168.82"/>
+<text text-anchor="middle" x="99.42" y="-153.62" font-family="Times,serif" font-size="14.00">商品</text>
+<text text-anchor="middle" x="99.42" y="-132.62" font-family="Times,serif" font-size="14.00">Product</text>
+</g>
+<!-- jig.tutorial.domain.model.order.Order&#45;&gt;jig.tutorial.domain.model.product.Product -->
+<g id="edge1" class="edge">
+<title>jig.tutorial.domain.model.order.Order&#45;&gt;jig.tutorial.domain.model.product.Product</title>
+<path fill="none" stroke="black" d="M68.9,-214.7C73.9,-203.84 80.12,-190.31 85.63,-178.31"/>
+<polygon fill="black" stroke="black" points="88.87,-179.64 89.87,-169.09 82.51,-176.72 88.87,-179.64"/>
+</g>
+<!-- jig.tutorial.domain.model.shipment.Shipment -->
+<g id="node2" class="node">
+<title>jig.tutorial.domain.model.shipment.Shipment</title>
+<polygon fill="#eedd82" stroke="black" points="123.09,-346.82 53.75,-346.82 53.75,-303.82 123.09,-303.82 123.09,-346.82"/>
+<text text-anchor="middle" x="88.42" y="-331.62" font-family="Times,serif" font-size="14.00">出荷</text>
+<text text-anchor="middle" x="88.42" y="-310.62" font-family="Times,serif" font-size="14.00">Shipment</text>
+</g>
+<!-- jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.order.Order -->
+<g id="edge4" class="edge">
+<title>jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.order.Order</title>
+<path fill="none" stroke="black" d="M81.55,-303.7C77.96,-292.95 73.51,-279.58 69.54,-267.67"/>
+<polygon fill="black" stroke="black" points="72.83,-266.47 66.35,-258.09 66.19,-268.69 72.83,-266.47"/>
+</g>
+<!-- jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.product.Product -->
+<g id="edge5" class="edge">
+<title>jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.product.Product</title>
+<path fill="none" stroke="black" d="M95.08,-303.67C96.46,-298.54 97.7,-293.03 98.42,-287.82 103.54,-250.8 102.85,-207.73 101.5,-179.35"/>
+<polygon fill="black" stroke="black" points="104.98,-179.04 100.96,-169.24 97.99,-179.41 104.98,-179.04"/>
+</g>
+<!-- jig.tutorial.domain.model.product.Price -->
+<g id="node3" class="node">
+<title>jig.tutorial.domain.model.product.Price</title>
+<polygon fill="#eedd82" stroke="black" points="108.42,-89.82 54.42,-89.82 54.42,-46.82 108.42,-46.82 108.42,-89.82"/>
+<text text-anchor="middle" x="81.42" y="-74.62" font-family="Times,serif" font-size="14.00">定価</text>
+<text text-anchor="middle" x="81.42" y="-53.62" font-family="Times,serif" font-size="14.00">Price</text>
+</g>
+<!-- jig.tutorial.domain.model.product.Name -->
+<g id="node4" class="node">
+<title>jig.tutorial.domain.model.product.Name</title>
+<polygon fill="#eedd82" stroke="black" points="184.42,-89.82 126.42,-89.82 126.42,-46.82 184.42,-46.82 184.42,-89.82"/>
+<text text-anchor="middle" x="155.42" y="-74.62" font-family="Times,serif" font-size="14.00">商品名</text>
+<text text-anchor="middle" x="155.42" y="-53.62" font-family="Times,serif" font-size="14.00">Name</text>
+</g>
+<!-- jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Price -->
+<g id="edge3" class="edge">
+<title>jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Price</title>
+<path fill="none" stroke="black" d="M94.6,-125.69C92.74,-117.74 90.58,-108.5 88.55,-99.82"/>
+<polygon fill="black" stroke="black" points="91.94,-98.95 86.26,-90.01 85.13,-100.55 91.94,-98.95"/>
+</g>
+<!-- jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Name -->
+<g id="edge2" class="edge">
+<title>jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Name</title>
+<path fill="none" stroke="black" d="M114.43,-125.69C120.58,-117.23 127.81,-107.29 134.47,-98.14"/>
+<polygon fill="black" stroke="black" points="137.32,-100.16 140.37,-90.01 131.66,-96.04 137.32,-100.16"/>
+</g>
+</g>
+</svg>
