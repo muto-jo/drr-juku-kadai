@@ -1,0 +1,43 @@
+<svg width="295px" height="220px"
+ viewBox="0.00 0.00 295.00 219.82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 185)">
+<title>%3</title>
+<polygon fill="white" stroke="transparent" points="-4,34.82 -4,-185 291,-185 291,34.82 -4,34.82"/>
+<text text-anchor="middle" x="143.5" y="15.2" font-family="Times,serif" font-size="14.00">区分図 [2020.2.4]</text>
+<g id="clust1" class="cluster">
+<title>cluster_jig.tutorial.domain.model.book</title>
+<polygon fill="none" stroke="lightgray" points="0.24,-16.14 0.24,-181.14 142.24,-181.14 142.24,-16.14 0.24,-16.14"/>
+<text text-anchor="middle" x="71.24" y="-165.94" font-family="Times,serif" font-size="14.00">book</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_jig.tutorial.domain.model.member</title>
+<polygon fill="none" stroke="lightgray" points="175.74,-0.14 175.74,-125.14 286.74,-125.14 286.74,-0.14 175.74,-0.14"/>
+<text text-anchor="middle" x="231.24" y="-109.94" font-family="Times,serif" font-size="14.00">member</text>
+</g>
+<!-- jig.tutorial.domain.model.book.BookType -->
+<g id="node1" class="node">
+<title>jig.tutorial.domain.model.book.BookType</title>
+<polygon fill="#eedd82" stroke="black" points="134.48,-151.28 8.48,-151.28 8.48,-24.28 134.48,-24.28 134.48,-151.28"/>
+<text text-anchor="start" x="50.48" y="-133.58" font-family="Times,serif" font-size="14.00">本種別</text>
+<text text-anchor="start" x="42.41" y="-119.58" font-family="Times,serif" font-size="14.00">BookType</text>
+<polygon fill="none" stroke="black" points="16.48,-87.78 16.48,-107.78 126.48,-107.78 126.48,-87.78 16.48,-87.78"/>
+<text text-anchor="start" x="51.64" y="-93.58" font-family="Times,serif" font-size="14.00">BOOK</text>
+<polygon fill="none" stroke="black" points="16.48,-67.78 16.48,-87.78 126.48,-87.78 126.48,-67.78 16.48,-67.78"/>
+<text text-anchor="start" x="19.37" y="-73.58" font-family="Times,serif" font-size="14.00">LIMITED_BOOK</text>
+<polygon fill="none" stroke="black" points="16.48,-47.78 16.48,-67.78 126.48,-67.78 126.48,-47.78 16.48,-47.78"/>
+<text text-anchor="start" x="56.31" y="-53.58" font-family="Times,serif" font-size="14.00">DVD</text>
+<polygon fill="none" stroke="black" points="16.48,-27.78 16.48,-47.78 126.48,-47.78 126.48,-27.78 16.48,-27.78"/>
+<text text-anchor="start" x="61.75" y="-33.58" font-family="Times,serif" font-size="14.00">CD</text>
+</g>
+<!-- jig.tutorial.domain.model.member.MemberType -->
+<g id="node2" class="node">
+<title>jig.tutorial.domain.model.member.MemberType</title>
+<polygon fill="#eedd82" stroke="black" points="278.48,-95.28 183.48,-95.28 183.48,-8.28 278.48,-8.28 278.48,-95.28"/>
+<text text-anchor="start" x="203.48" y="-77.58" font-family="Times,serif" font-size="14.00">会員種別</text>
+<text text-anchor="start" x="193.87" y="-63.58" font-family="Times,serif" font-size="14.00">MemberType</text>
+<polygon fill="none" stroke="black" points="191.98,-31.78 191.98,-51.78 270.98,-51.78 270.98,-31.78 191.98,-31.78"/>
+<text text-anchor="start" x="208.4" y="-37.58" font-family="Times,serif" font-size="14.00">ADULT</text>
+<polygon fill="none" stroke="black" points="191.98,-11.78 191.98,-31.78 270.98,-31.78 270.98,-11.78 191.98,-11.78"/>
+<text text-anchor="start" x="210.09" y="-17.58" font-family="Times,serif" font-size="14.00">CHILD</text>
+</g>
+</g>
+</svg>

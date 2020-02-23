@@ -2,7 +2,7 @@ package jig.tutorial.domain.model.days;
 import jig.tutorial.domain.model.days.LendingCount;
 
 /**
- * 貸出制限
+ * 貸出制限インターフェース
  */
 public interface ILendingRule{
     public LendingCount lessThree();

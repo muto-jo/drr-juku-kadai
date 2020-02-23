@@ -1,87 +1,133 @@
-<svg width="225px" height="393px"
- viewBox="0.00 0.00 224.84 392.82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 388.82)">
+<svg width="570px" height="294px"
+ viewBox="0.00 0.00 570.00 293.82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 289.82)">
 <title>%3</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-388.82 220.84,-388.82 220.84,4 -4,4"/>
-<text text-anchor="middle" x="108.42" y="-15.62" font-family="Times,serif" font-size="14.00">ビジネスルール関連図 [2020.2.4]</text>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-289.82 566,-289.82 566,4 -4,4"/>
+<text text-anchor="middle" x="281" y="-15.62" font-family="Times,serif" font-size="14.00">ビジネスルール関連図 [2020.2.4]</text>
 <g id="clust1" class="cluster">
-<title>cluster_jig.tutorial.domain.model.order</title>
-<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="24.42,-206.82 24.42,-287.82 94.42,-287.82 94.42,-206.82 24.42,-206.82"/>
-<text text-anchor="middle" x="59.42" y="-272.62" font-family="Times,serif" font-size="14.00">order</text>
+<title>cluster_jig.tutorial.domain.model.book</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="8,-117.82 8,-277.82 98,-277.82 98,-117.82 8,-117.82"/>
+<text text-anchor="middle" x="53" y="-262.62" font-family="Times,serif" font-size="14.00">book</text>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_jig.tutorial.domain.model.shipment</title>
-<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="45.42,-295.82 45.42,-376.82 131.42,-376.82 131.42,-295.82 45.42,-295.82"/>
-<text text-anchor="middle" x="88.42" y="-361.62" font-family="Times,serif" font-size="14.00">shipment</text>
+<title>cluster_jig.tutorial.domain.model.days</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="106,-38.82 106,-277.82 438,-277.82 438,-38.82 106,-38.82"/>
+<text text-anchor="middle" x="272" y="-262.62" font-family="Times,serif" font-size="14.00">days</text>
 </g>
 <g id="clust3" class="cluster">
-<title>cluster_jig.tutorial.domain.model.product</title>
-<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="46.42,-38.82 46.42,-198.82 192.42,-198.82 192.42,-38.82 46.42,-38.82"/>
-<text text-anchor="middle" x="119.42" y="-183.62" font-family="Times,serif" font-size="14.00">product</text>
+<title>cluster_jig.tutorial.domain.model.member</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="446,-117.82 446,-277.82 554,-277.82 554,-117.82 446,-117.82"/>
+<text text-anchor="middle" x="500" y="-262.62" font-family="Times,serif" font-size="14.00">member</text>
 </g>
-<!-- jig.tutorial.domain.model.order.Order -->
+<!-- jig.tutorial.domain.model.book.Book -->
 <g id="node1" class="node">
-<title>jig.tutorial.domain.model.order.Order</title>
-<polygon fill="#eedd82" stroke="black" points="86.42,-257.82 32.42,-257.82 32.42,-214.82 86.42,-214.82 86.42,-257.82"/>
-<text text-anchor="middle" x="59.42" y="-242.62" font-family="Times,serif" font-size="14.00">注文</text>
-<text text-anchor="middle" x="59.42" y="-221.62" font-family="Times,serif" font-size="14.00">Order</text>
+<title>jig.tutorial.domain.model.book.Book</title>
+<polygon fill="#eedd82" stroke="black" points="80,-247.82 26,-247.82 26,-204.82 80,-204.82 80,-247.82"/>
+<text text-anchor="middle" x="53" y="-232.62" font-family="Times,serif" font-size="14.00">書籍</text>
+<text text-anchor="middle" x="53" y="-211.62" font-family="Times,serif" font-size="14.00">Book</text>
 </g>
-<!-- jig.tutorial.domain.model.product.Product -->
-<g id="node5" class="node">
-<title>jig.tutorial.domain.model.product.Product</title>
-<polygon fill="#eedd82" stroke="black" points="128.98,-168.82 69.87,-168.82 69.87,-125.82 128.98,-125.82 128.98,-168.82"/>
-<text text-anchor="middle" x="99.42" y="-153.62" font-family="Times,serif" font-size="14.00">商品</text>
-<text text-anchor="middle" x="99.42" y="-132.62" font-family="Times,serif" font-size="14.00">Product</text>
-</g>
-<!-- jig.tutorial.domain.model.order.Order&#45;&gt;jig.tutorial.domain.model.product.Product -->
-<g id="edge1" class="edge">
-<title>jig.tutorial.domain.model.order.Order&#45;&gt;jig.tutorial.domain.model.product.Product</title>
-<path fill="none" stroke="black" d="M68.9,-214.7C73.9,-203.84 80.12,-190.31 85.63,-178.31"/>
-<polygon fill="black" stroke="black" points="88.87,-179.64 89.87,-169.09 82.51,-176.72 88.87,-179.64"/>
-</g>
-<!-- jig.tutorial.domain.model.shipment.Shipment -->
+<!-- jig.tutorial.domain.model.book.BookType -->
 <g id="node2" class="node">
-<title>jig.tutorial.domain.model.shipment.Shipment</title>
-<polygon fill="#eedd82" stroke="black" points="123.09,-346.82 53.75,-346.82 53.75,-303.82 123.09,-303.82 123.09,-346.82"/>
-<text text-anchor="middle" x="88.42" y="-331.62" font-family="Times,serif" font-size="14.00">出荷</text>
-<text text-anchor="middle" x="88.42" y="-310.62" font-family="Times,serif" font-size="14.00">Shipment</text>
+<title>jig.tutorial.domain.model.book.BookType</title>
+<polygon fill="#eedd82" stroke="black" points="90.13,-168.82 15.87,-168.82 15.87,-125.82 90.13,-125.82 90.13,-168.82"/>
+<text text-anchor="middle" x="53" y="-153.62" font-family="Times,serif" font-size="14.00">本種別</text>
+<text text-anchor="middle" x="53" y="-132.62" font-family="Times,serif" font-size="14.00">BookType</text>
 </g>
-<!-- jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.order.Order -->
-<g id="edge4" class="edge">
-<title>jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.order.Order</title>
-<path fill="none" stroke="black" d="M81.55,-303.7C77.96,-292.95 73.51,-279.58 69.54,-267.67"/>
-<polygon fill="black" stroke="black" points="72.83,-266.47 66.35,-258.09 66.19,-268.69 72.83,-266.47"/>
-</g>
-<!-- jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.product.Product -->
-<g id="edge5" class="edge">
-<title>jig.tutorial.domain.model.shipment.Shipment&#45;&gt;jig.tutorial.domain.model.product.Product</title>
-<path fill="none" stroke="black" d="M95.08,-303.67C96.46,-298.54 97.7,-293.03 98.42,-287.82 103.54,-250.8 102.85,-207.73 101.5,-179.35"/>
-<polygon fill="black" stroke="black" points="104.98,-179.04 100.96,-169.24 97.99,-179.41 104.98,-179.04"/>
-</g>
-<!-- jig.tutorial.domain.model.product.Price -->
-<g id="node3" class="node">
-<title>jig.tutorial.domain.model.product.Price</title>
-<polygon fill="#eedd82" stroke="black" points="108.42,-89.82 54.42,-89.82 54.42,-46.82 108.42,-46.82 108.42,-89.82"/>
-<text text-anchor="middle" x="81.42" y="-74.62" font-family="Times,serif" font-size="14.00">定価</text>
-<text text-anchor="middle" x="81.42" y="-53.62" font-family="Times,serif" font-size="14.00">Price</text>
-</g>
-<!-- jig.tutorial.domain.model.product.Name -->
-<g id="node4" class="node">
-<title>jig.tutorial.domain.model.product.Name</title>
-<polygon fill="#eedd82" stroke="black" points="184.42,-89.82 126.42,-89.82 126.42,-46.82 184.42,-46.82 184.42,-89.82"/>
-<text text-anchor="middle" x="155.42" y="-74.62" font-family="Times,serif" font-size="14.00">商品名</text>
-<text text-anchor="middle" x="155.42" y="-53.62" font-family="Times,serif" font-size="14.00">Name</text>
-</g>
-<!-- jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Price -->
-<g id="edge3" class="edge">
-<title>jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Price</title>
-<path fill="none" stroke="black" d="M94.6,-125.69C92.74,-117.74 90.58,-108.5 88.55,-99.82"/>
-<polygon fill="black" stroke="black" points="91.94,-98.95 86.26,-90.01 85.13,-100.55 91.94,-98.95"/>
-</g>
-<!-- jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Name -->
+<!-- jig.tutorial.domain.model.book.Book&#45;&gt;jig.tutorial.domain.model.book.BookType -->
 <g id="edge2" class="edge">
-<title>jig.tutorial.domain.model.product.Product&#45;&gt;jig.tutorial.domain.model.product.Name</title>
-<path fill="none" stroke="black" d="M114.43,-125.69C120.58,-117.23 127.81,-107.29 134.47,-98.14"/>
-<polygon fill="black" stroke="black" points="137.32,-100.16 140.37,-90.01 131.66,-96.04 137.32,-100.16"/>
+<title>jig.tutorial.domain.model.book.Book&#45;&gt;jig.tutorial.domain.model.book.BookType</title>
+<path fill="none" stroke="black" d="M53,-204.69C53,-196.83 53,-187.7 53,-179.11"/>
+<polygon fill="black" stroke="black" points="56.5,-179.01 53,-169.01 49.5,-179.01 56.5,-179.01"/>
+</g>
+<!-- jig.tutorial.domain.model.days.LendingCount -->
+<g id="node3" class="node">
+<title>jig.tutorial.domain.model.days.LendingCount</title>
+<polygon fill="#eedd82" stroke="black" points="368.38,-89.82 271.62,-89.82 271.62,-46.82 368.38,-46.82 368.38,-89.82"/>
+<text text-anchor="middle" x="320" y="-74.62" font-family="Times,serif" font-size="14.00">貸出可能数</text>
+<text text-anchor="middle" x="320" y="-53.62" font-family="Times,serif" font-size="14.00">LendingCount</text>
+</g>
+<!-- jig.tutorial.domain.model.days.ChildRule -->
+<g id="node4" class="node">
+<title>jig.tutorial.domain.model.days.ChildRule</title>
+<polygon fill="#eedd82" stroke="black" points="409,-247.82 281,-247.82 281,-204.82 409,-204.82 409,-247.82"/>
+<text text-anchor="middle" x="345" y="-232.62" font-family="Times,serif" font-size="14.00">子供貸し出し制限</text>
+<text text-anchor="middle" x="345" y="-211.62" font-family="Times,serif" font-size="14.00">ChildRule</text>
+</g>
+<!-- jig.tutorial.domain.model.days.ChildRule&#45;&gt;jig.tutorial.domain.model.days.LendingCount -->
+<g id="edge4" class="edge">
+<title>jig.tutorial.domain.model.days.ChildRule&#45;&gt;jig.tutorial.domain.model.days.LendingCount</title>
+<path fill="none" stroke="black" d="M385.18,-204.62C398.46,-195.57 411.69,-183.6 419,-168.82 429.05,-148.5 430.99,-137.05 419,-117.82 409.6,-102.75 394.01,-92.23 377.95,-84.95"/>
+<polygon fill="black" stroke="black" points="379.06,-81.62 368.48,-81.02 376.38,-88.09 379.06,-81.62"/>
+</g>
+<!-- jig.tutorial.domain.model.days.ILendingRule -->
+<g id="node7" class="node">
+<title>jig.tutorial.domain.model.days.ILendingRule</title>
+<polygon fill="#eedd82" stroke="black" points="409.94,-168.82 230.06,-168.82 230.06,-125.82 409.94,-125.82 409.94,-168.82"/>
+<text text-anchor="middle" x="320" y="-153.62" font-family="Times,serif" font-size="14.00">貸出制限インターフェース</text>
+<text text-anchor="middle" x="320" y="-132.62" font-family="Times,serif" font-size="14.00">ILendingRule</text>
+</g>
+<!-- jig.tutorial.domain.model.days.ChildRule&#45;&gt;jig.tutorial.domain.model.days.ILendingRule -->
+<g id="edge3" class="edge">
+<title>jig.tutorial.domain.model.days.ChildRule&#45;&gt;jig.tutorial.domain.model.days.ILendingRule</title>
+<path fill="none" stroke="black" d="M338.3,-204.69C335.69,-196.66 332.66,-187.3 329.81,-178.54"/>
+<polygon fill="black" stroke="black" points="333.14,-177.44 326.72,-169.01 326.48,-179.6 333.14,-177.44"/>
+</g>
+<!-- jig.tutorial.domain.model.days.DelayDays -->
+<g id="node5" class="node">
+<title>jig.tutorial.domain.model.days.DelayDays</title>
+<polygon fill="#eedd82" stroke="black" points="212.2,-168.82 133.8,-168.82 133.8,-125.82 212.2,-125.82 212.2,-168.82"/>
+<text text-anchor="middle" x="173" y="-153.62" font-family="Times,serif" font-size="14.00">遅延日数</text>
+<text text-anchor="middle" x="173" y="-132.62" font-family="Times,serif" font-size="14.00">DelayDays</text>
+</g>
+<!-- jig.tutorial.domain.model.days.AdultRule -->
+<g id="node6" class="node">
+<title>jig.tutorial.domain.model.days.AdultRule</title>
+<polygon fill="#eedd82" stroke="black" points="242,-247.82 114,-247.82 114,-204.82 242,-204.82 242,-247.82"/>
+<text text-anchor="middle" x="178" y="-232.62" font-family="Times,serif" font-size="14.00">大人貸し出し制限</text>
+<text text-anchor="middle" x="178" y="-211.62" font-family="Times,serif" font-size="14.00">AdultRule</text>
+</g>
+<!-- jig.tutorial.domain.model.days.AdultRule&#45;&gt;jig.tutorial.domain.model.days.LendingCount -->
+<g id="edge7" class="edge">
+<title>jig.tutorial.domain.model.days.AdultRule&#45;&gt;jig.tutorial.domain.model.days.LendingCount</title>
+<path fill="none" stroke="black" d="M151.26,-204.57C140.99,-194.94 130.44,-182.58 125,-168.82 116.66,-147.74 111.04,-135.68 125,-117.82 141.72,-96.43 210.17,-83.13 261.28,-75.98"/>
+<polygon fill="black" stroke="black" points="261.81,-79.44 271.25,-74.63 260.88,-72.5 261.81,-79.44"/>
+</g>
+<!-- jig.tutorial.domain.model.days.AdultRule&#45;&gt;jig.tutorial.domain.model.days.DelayDays -->
+<g id="edge5" class="edge">
+<title>jig.tutorial.domain.model.days.AdultRule&#45;&gt;jig.tutorial.domain.model.days.DelayDays</title>
+<path fill="none" stroke="black" d="M176.66,-204.69C176.15,-196.83 175.56,-187.7 175,-179.11"/>
+<polygon fill="black" stroke="black" points="178.48,-178.76 174.34,-169.01 171.5,-179.22 178.48,-178.76"/>
+</g>
+<!-- jig.tutorial.domain.model.days.AdultRule&#45;&gt;jig.tutorial.domain.model.days.ILendingRule -->
+<g id="edge6" class="edge">
+<title>jig.tutorial.domain.model.days.AdultRule&#45;&gt;jig.tutorial.domain.model.days.ILendingRule</title>
+<path fill="none" stroke="black" d="M216.05,-204.69C233.56,-195.19 254.51,-183.83 272.99,-173.81"/>
+<polygon fill="black" stroke="black" points="274.72,-176.86 281.84,-169.01 271.38,-170.7 274.72,-176.86"/>
+</g>
+<!-- jig.tutorial.domain.model.days.ILendingRule&#45;&gt;jig.tutorial.domain.model.days.LendingCount -->
+<g id="edge8" class="edge">
+<title>jig.tutorial.domain.model.days.ILendingRule&#45;&gt;jig.tutorial.domain.model.days.LendingCount</title>
+<path fill="none" stroke="black" d="M320,-125.69C320,-117.83 320,-108.7 320,-100.11"/>
+<polygon fill="black" stroke="black" points="323.5,-100.01 320,-90.01 316.5,-100.01 323.5,-100.01"/>
+</g>
+<!-- jig.tutorial.domain.model.member.Member -->
+<g id="node8" class="node">
+<title>jig.tutorial.domain.model.member.Member</title>
+<polygon fill="#eedd82" stroke="black" points="531.93,-247.82 468.07,-247.82 468.07,-204.82 531.93,-204.82 531.93,-247.82"/>
+<text text-anchor="middle" x="500" y="-232.62" font-family="Times,serif" font-size="14.00">会員</text>
+<text text-anchor="middle" x="500" y="-211.62" font-family="Times,serif" font-size="14.00">Member</text>
+</g>
+<!-- jig.tutorial.domain.model.member.MemberType -->
+<g id="node9" class="node">
+<title>jig.tutorial.domain.model.member.MemberType</title>
+<polygon fill="#eedd82" stroke="black" points="545.72,-168.82 454.28,-168.82 454.28,-125.82 545.72,-125.82 545.72,-168.82"/>
+<text text-anchor="middle" x="500" y="-153.62" font-family="Times,serif" font-size="14.00">会員種別</text>
+<text text-anchor="middle" x="500" y="-132.62" font-family="Times,serif" font-size="14.00">MemberType</text>
+</g>
+<!-- jig.tutorial.domain.model.member.Member&#45;&gt;jig.tutorial.domain.model.member.MemberType -->
+<g id="edge1" class="edge">
+<title>jig.tutorial.domain.model.member.Member&#45;&gt;jig.tutorial.domain.model.member.MemberType</title>
+<path fill="none" stroke="black" d="M500,-204.69C500,-196.83 500,-187.7 500,-179.11"/>
+<polygon fill="black" stroke="black" points="503.5,-179.01 500,-169.01 496.5,-179.01 503.5,-179.01"/>
 </g>
 </g>
 </svg>

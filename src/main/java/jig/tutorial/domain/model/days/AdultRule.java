@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import jig.tutorial.domain.model.days.DelayDays;
 import jig.tutorial.domain.model.days.ILendingRule;
 
+/**
+ * 大人貸し出し制限
+ */
 public class AdultRule implements ILendingRule{
 
     public LendingCount rule(LocalDate lendingDate){
