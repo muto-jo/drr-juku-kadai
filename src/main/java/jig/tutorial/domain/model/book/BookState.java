@@ -11,6 +11,4 @@ public enum BookState {
     在庫中,
     貸出中_期限内,
     貸出中_期限切れ;
-
-    
 }

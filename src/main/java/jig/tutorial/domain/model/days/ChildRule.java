@@ -1,5 +1,7 @@
 package jig.tutorial.domain.model.days;
 
+import java.time.LocalDate;
+
 import jig.tutorial.domain.model.days.ILendingRule;
 
 /**
@@ -8,21 +10,11 @@ import jig.tutorial.domain.model.days.ILendingRule;
 public class ChildRule implements ILendingRule{
 
     @Override
-    public LendingCount lessThree() {
-        // TODO Auto-generated method stub
-        return null;
-    }
+    public LendingCount lendingLimit(LocalDate lendingDate){
+        DelayDays lateDays = DelayDays.calcDelayDays(lendingDate);
 
-    @Override
-    public LendingCount lessSeven() {
-        // TODO Auto-generated method stub
-        return null;
+        if(lateDays.days() <= 3) return new LendingCount(7);
+        if(lateDays.days() <= 7) return new LendingCount(4);
+        return new LendingCount(0);
     }
-
-    @Override
-    public LendingCount other() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
 }
