@@ -14,6 +14,11 @@ public enum MemberType {
         this.rule = rule;
     }
 
+    /**
+     * 貸出制限ルール
+     * @param lendingDate
+     * @return
+     */
     private LendingCount lendingLimit(LocalDate lendingDate){
         return rule.lendingLimit(lendingDate);
     }

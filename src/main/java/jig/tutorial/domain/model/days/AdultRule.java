@@ -13,9 +13,10 @@ public class AdultRule implements ILendingRule{
     public LendingCount lendingLimit(LocalDate lendingDate){
         
         DelayDays lateDays = DelayDays.calcDelayDays(lendingDate);
+        DelayDaysLevel level = DelayDaysLevel.from(lateDays);
 
-        if(lateDays.days() <= 3) return new LendingCount(5);
-        if(lateDays.days() <= 7) return new LendingCount(0);
+        if(level == DelayDaysLevel.Within3days) return new LendingCount(5);
+        if(level == DelayDaysLevel.Within7days) return new LendingCount(0);
         return new LendingCount(0);
     }
 }
